@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+    <link rel="stylesheet" href="film.css" />
+    <script src="film.js"></script>
+</head>
+<body>
+    <header>
+        <h2>News</h2>
+        <br />
+        <h3>Iscriviti alla nostra newsletter!</h3>
+    </header>
+    <form>
+        <div id="loginForm" class="loginForm">
+            Nome
+            <input type="text" required="required" placeholder="Inserisci il tuo nome" />
+
+            <br /> <br />
+
+            <label>Cognome</label>
+            <input type="text" required="required" placeholder="Es. Rossi" />
+
+            <br /> <br />
+
+            Data di nascita:
+            <input type="date" />
+
+            <br /> <br />
+
+            <label>Indirizzo Email</label>
+            <input type="text" required="required" />
+
+            <br /> <br />
+
+            <label>Password</label>
+            <input type="password" required="required" pattern="[A-Za-z0-9]+" title="Lettere e numeri, no caratteri speciali o punteggiatura" />
+        </div>
+        <br /> <br />
+
+        <input id="loginButton" type="submit" value="Subscribe" />
+        <input id="logoutButton" type="button" value="Unsubscribe" onclick="logOut()" style="display:none" />
+    </form>
+
+    <br /><br />
+    <a href="home.html"><input id="backHome" type="button" value="Back" /></a>
+
+
+    <br /><br />
+
+
+
+    <footer><p>All rights reserved @ FRANCESCA DICUGNO</p></footer>
+</body>
+</html>
